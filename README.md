@@ -20,7 +20,7 @@ Tested on Python2.7
 use the following environment variables:
 - **targetGroup**
 the AWS arn for targetGroup
-example: arn:aws:elasticloadbalancing:eu-west-1:112233445566:targetgroup/target-group-name/00ff00ff00f
+`example: arn:aws:elasticloadbalancing:eu-west-1:112233445566:targetgroup/target-group-name/00ff00ff00f`
 - **fortigate_vs**
 the name of the virtual server in fortigate
 - **fortigate_ip**
