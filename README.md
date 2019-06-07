@@ -12,9 +12,9 @@ This script:
 - compare differences
 - add or remove fortigate entries through ssh cli
 
-Tested on Python2.7
-
 Plug this lambda to a Cloudwatch rule on AutoScalingGroups changes.
+
+Tested on Python2.7
 
 ## variables:
 use the following environment variables:
@@ -68,3 +68,7 @@ fortigate (test-vs) $ Unknown action
 fortigate (test-vs) $
 entry 101173757 removed from fortigate virtualserver: test-vs
 ```
+
+## credits
+
+Fortigate config parsing from https://www.reddit.com/r/learnpython/comments/49ml1d/parsing_a_fortigate_config/d0t5w8i?utm_source=share&utm_medium=web2x
